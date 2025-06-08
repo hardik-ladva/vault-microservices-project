@@ -149,18 +149,3 @@ vault policy list
 vault token lookup
 ```
 
----
-
-## 👨‍💻 Author
-
-Made by Hardik Ladva — Cybersecurity Student & Vault Enthusiast
-
----
-
-## 📄 License
-
-This project is open-source and free for educational or demo use.
-
----
-
-
