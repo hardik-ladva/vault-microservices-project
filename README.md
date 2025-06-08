@@ -1,8 +1,4 @@
-Here is the complete **README.md** file content as a single copy-paste-ready block. Save it as `README.md` in your project root folder.
 
----
-
-```markdown
 # Vault Microservices Project
 
 ## 🧩 Overview
@@ -142,28 +138,6 @@ bash scripts/test-secrets.sh
 
 ---
 
-## 📦 GitHub Integration
-
-### 1. Create GitHub Repository
-
-Go to [https://github.com/new](https://github.com/new)
-→ Create repo `vault-microservices-project`
-→ Do **not** initialize with README
-
-### 2. Push Code
-
-```bash
-git init
-git remote add origin https://github.com/<your-username>/vault-microservices-project.git
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git push -u origin main
-```
-
-When prompted for a password, use your **GitHub Personal Access Token (PAT)**.
-
----
 
 ## 🔍 Useful Vault Commands
 
@@ -177,32 +151,9 @@ vault token lookup
 
 ---
 
-## ⚠️ Troubleshooting
-
-* **Permission denied for audit logs:**
-  Ensure `audit/` exists and has write permission:
-
-  ```bash
-  mkdir -p audit
-  chmod 755 audit
-  ```
-
-* **"path already in use" error:**
-  You're trying to enable a secret engine that's already mounted.
-
-* **"address already in use":**
-  Check if Vault is already running:
-
-  ```bash
-  lsof -i :8200
-  ```
-
----
-
 ## 👨‍💻 Author
 
-Made by \[Your Name] — Cybersecurity Student & Vault Enthusiast
-Add this to your GitHub portfolio to showcase your real-world skills 💼
+Made by Hardik Ladva — Cybersecurity Student & Vault Enthusiast
 
 ---
 
@@ -212,19 +163,4 @@ This project is open-source and free for educational or demo use.
 
 ---
 
-## 🛡️ Final Words
 
-This project gives you a complete beginner-to-intermediate practical implementation of Vault. It proves your ability to:
-
-* Configure and manage Vault
-* Write and apply access policies
-* Secure secrets for multiple applications
-
-**Show it on your resume and GitHub to stand out.**
-
-```
-
----
-
-Let me know if you'd like me to generate the actual file content (`setup.sh`, `main.py`, `*.hcl`) for a full working demo.
-```
