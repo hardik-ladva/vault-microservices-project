@@ -62,7 +62,7 @@ vault-microservices-project/
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/<your-username>/vault-microservices-project.git
+git clone https://github.com/hardik-ladva/vault-microservices-project.git
 cd vault-microservices-project
 ````
 
