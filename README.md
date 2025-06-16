@@ -3,7 +3,7 @@
 
 ## 🧩 Overview
 
-This project demonstrates how to use **HashiCorp Vault** to securely manage secrets in a microservices architecture. It simulates two services (Python scripts) that retrieve their own secrets from Vault. The goal is to help beginners prepare for the **HashiCorp Vault Associate Certification** while building a practical portfolio project.
+This project demonstrates how to use **HashiCorp Vault** to securely manage secrets in a microservices architecture. It simulates two services (Python scripts) that retrieve their own secrets from Vault. Everthing runs in dev mode so it will be temporary.
 
 ---
 
